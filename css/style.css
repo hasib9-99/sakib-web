@@ -1,0 +1,48 @@
+/* common stayle part start */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}  
+ul{
+    list-style: none;
+}
+/* common stayle part end */
+
+/* banner part start  */
+#main{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/banner-1.png), no-repeat, center;
+    background-size: cover;
+}
+ul li {
+    padding: 0 35px;
+}
+.nav-item a:hover{
+    color: #6A4DF4 !important;
+}
+nav{
+    padding: 50px 0;
+}
+.main__heading{
+    padding: 150px 0;
+}
+.main__heading h2{
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 120%;
+}
+.main__heading p{
+    padding: 40px 0;
+}
+.btton{
+    background-color: #6A4DF4;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 10px;
+}
+/* banner part end  */
